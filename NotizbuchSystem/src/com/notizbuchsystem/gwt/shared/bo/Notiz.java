@@ -4,6 +4,7 @@ public class Notiz {
 	
 int notizId;
 String titel;
+String inhalt;
 
 
 public int getNotizId() {
@@ -19,6 +20,12 @@ public void setTitel(String titel) {
 	this.titel = titel;
 }
 
+public String getInhalt() {
+	return inhalt;
+}
+public void setInhalt(String inhalt) {
+	this.inhalt = inhalt;
+}
 public String toString() {
 	return "NutzerID #N" + this.getNotizId() + " " + this.titel;
 	
