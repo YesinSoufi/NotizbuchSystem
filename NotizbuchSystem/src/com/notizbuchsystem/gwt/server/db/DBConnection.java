@@ -17,7 +17,7 @@ public class DBConnection {
 	 * 
 	 */
 	private static String googleUrl = "";
-	private static String localUrl = "jdbc:mysql://localhost/YOURSCHEMA?user=root&password=YOURPASSWORD&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+	private static String localUrl = "jdbc:mysql://localhost/NotizbuchSystem?user=root&password=YOURPASSWORD&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
 	/**
 	 * Methode zum erzeugen einer Verbindung zur Datenbank
